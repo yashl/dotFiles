@@ -1,0 +1,11 @@
+syntax on
+set number
+set mouse=a
+call plug#begin()
+	Plug 'tpope/vim-surround'
+	Plug 'scrooloose/syntastic'
+	Plug 'vim-scripts/AutoComplPop'
+	Plug 'vim-airline/vim-airline'
+	Plug 'w0rp/ale'
+	Plug 'scrooloose/nerdcommenter'
+call plug#end()
